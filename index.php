@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bolt - Coming Soon Template</title>
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/fonts/line-icons.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/slicknav.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/menu_sideslide.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/vegas.min.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/animate.css">
-    <link rel="stylesheet" href="C:\Users\user\Downloads\bolt-opl\bolt-opl\assets\css\main.css">
-    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/responsive.css">
+    <link rel="stylesheet" href="\css\bootstrap.min.css">
+    <link rel="stylesheet" href="\css\line-icons.css">
+    <link rel="stylesheet" href="\css\slicknav.css">
+    <link rel="stylesheet" href="\css\menu_sideslide.css">
+    <link rel="stylesheet" href="\css\vegas.min.css">
+    <link rel="stylesheet" href="\css\animate.css">
+    <link rel="stylesheet" href="\css\main.css">
+    <link rel="stylesheet" href="\css\responsive.css">
 </head>
 <body>
 
@@ -273,23 +273,23 @@
     <div id="preloader">
 		<div class="loader" id="loader-1"></div>
     </div>
-    <script data-cfasync="false" src="http://preview.uideck.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/jquery-min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/popper.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/bootstrap.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/vegas.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/jquery.countdown.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/menu.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/classie.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/scrolling-nav.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/jquery.nav.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/jquery.easing.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/wow.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/jquery.slicknav.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/main.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/form-validator.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/contact-form-script.min.js"></script>
-    <script src="http://preview.uideck.com/items/bolt-demo/assets/js/map.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
+    <script data-cfasync="false" src="\js\email-decode.min.js"></script>
+    <script src="\js\jquery-min.js"></script>
+    <script src="\js\popper.min.js"></script>
+    <script src="\js\bootstrap.min.js"></script>
+    <script src="\js\vegas.min.js"></script>
+    <script src="\js\jquery.countdown.min.js"></script>
+    <script src="\js\menu.js"></script>
+    <script src="\js\classie.js"></script>
+    <script src="\js\scrolling-nav.js"></script>
+    <script src="\js\jquery.nav.js"></script>
+    <script src="\js\jquery.easing.min.js"></script>
+    <script src="\js\wow.js"></script>
+    <script src="\js\jquery.slicknav.js"></script>
+    <script src="\js\main.js"></script>
+    <script src="\js\form-validator.min.js"></script>
+    <script src="\js\contact-form-script.min.js"></script>
+    <script src="\js\map.js"></script>
+    <script type="text/javascript" src="\js\js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
 </body>
 </html>

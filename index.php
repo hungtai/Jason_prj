@@ -2,18 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bolt - Coming Soon Template</title>
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/fonts/line-icons.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/slicknav.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/menu_sideslide.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/vegas.min.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/animate.css">
-	<link rel="stylesheet" href="C:\Users\user\Downloads\bolt-opl\bolt-opl\assets\css\main.css">
-	<link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/responsive.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/fonts/line-icons.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/slicknav.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/menu_sideslide.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/vegas.min.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/animate.css">
+    <link rel="stylesheet" href="C:\Users\user\Downloads\bolt-opl\bolt-opl\assets\css\main.css">
+    <link rel="stylesheet" href="http://preview.uideck.com/items/bolt-demo/assets/css/responsive.css">
 </head>
 <body>
 
@@ -292,6 +291,5 @@
     <script src="http://preview.uideck.com/items/bolt-demo/assets/js/contact-form-script.min.js"></script>
     <script src="http://preview.uideck.com/items/bolt-demo/assets/js/map.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
-
 </body>
 </html>

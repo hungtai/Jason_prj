@@ -5,7 +5,7 @@
   <head>
 	<meta charset="utf-8">
 	<title>FJUIM-資訊專題線上評分系統</title>
-  	<script src="\css\jquery.min.js"></script>
+  	
 	<link href="\css\bootstrap.min.css" rel="stylesheet">
 	<link href="\css\style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	</head>
 
     <body id="page-top">
@@ -36,7 +36,7 @@
                 <div class="collapse navbar-collapse clearfix" id="stuNavbar-collapse">
                     <ul class="nav nav-pills">
 					<!--預留給menu class產生-->
-					<li><a href="teacher_index_login.html">首頁</a></li>
+					<li><a href="teacher_index_login.php">首頁</a></li>
                     <li><a href="">公告欄</a></li>
                     <li><a href="專題規則.php">專題規則</a></li>
                     <li><a href="">產學合作列表</a></li>
@@ -80,8 +80,8 @@
 
         <div class="container">
             <div class="btn-group btn-group-vertical" style="position:fixed; top:300px; left:250px;">
-                <a type="button" class="btn btn-default active" href="帳號管理_學生.html">學生帳號管理</a>
-                <a type="button" class="btn btn-default" href="帳號管理_教師.html">教師帳號管理</a>
+                <a type="button" class="btn btn-default active" href="帳號管理_學生.php">學生帳號管理</a>
+                <a type="button" class="btn btn-default" href="帳號管理_教師.php">教師帳號管理</a>
             </div>
         </div>
         <div>

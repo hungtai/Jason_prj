@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bolt - Coming Soon Template</title>
+    <title>Jason's 專題</title>
 	<link rel="stylesheet" type="text/css" href="\css\bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="\fonts\line-icons.css">
 	<link rel="stylesheet" type="text/css" href="\css\slicknav.css">
@@ -57,7 +57,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a class="navbar-brand"><img src="https://140.136.251.210/student/Image/fju-lg.png" alt=""></a>
+                        <a class="navbar-brand"><img src="\img\fju-lg.png" alt=""></a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">

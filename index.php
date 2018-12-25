@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bolt - Coming Soon Template</title>
-	<link rel="stylesheet" type="text/css" href="http://preview.uideck.com/items/bolt-demo/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://preview.uideck.com/items/bolt-demo/assets/fonts/line-icons.css">
+	<link rel="stylesheet" type="text/css" href="\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="\font\line-icons.css">
 	<link rel="stylesheet" type="text/css" href="\css\slicknav.css">
 	<link rel="stylesheet" type="text/css" href="\css\menu_sideslide.css">
 	<link rel="stylesheet" type="text/css" href="\css\vegas.min.css">
 	<link rel="stylesheet" type="text/css" href="\css\animate.css">
-	<link rel="stylesheet" type="text/css" href="C:\Users\user\Downloads\bolt-opl\bolt-opl\assets\css\main.css">
+	<link rel="stylesheet" type="text/css" href="\css\main.css">
 	<link rel="stylesheet" type="text/css" href="\css\responsive.css">
 </head>
 <body>

@@ -13,14 +13,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="\js\jquery.min.js"></script>
-	<script type="text/javascript" src="\js\query.url.js"></script>
+	<script type="text/javascript" src="\js\jquery.url.js"></script>
 	<script type="text/javascript" src="\js\bootstrap.min.js"></script>
 	<script type="text/javascript" src="\js\jquery.validate.min.js"></script>
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	</head>
 
     <body id="page-top">

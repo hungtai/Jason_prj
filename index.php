@@ -291,7 +291,7 @@
     <script src="\js\form-validator.min.js"></script>
     <script src="\js\contact-form-script.min.js"></script>
     <script src="\js\map.js"></script>
-    <script type="text/javascript" src="\js\js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
 
 </body>
 </html>

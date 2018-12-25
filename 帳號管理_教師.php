@@ -81,8 +81,8 @@
 
         <div class="container">
             <div class="btn-group btn-group-vertical" style="position:fixed; top:300px; left:250px;">
-                <a type="button" class="btn btn-default" href="帳號管理_學生.html">學生帳號管理</a>
-                <a type="button" class="btn btn-default active" href="帳號管理_教師.html">教師帳號管理</a>
+                <a type="button" class="btn btn-default" href="帳號管理_學生.php">學生帳號管理</a>
+                <a type="button" class="btn btn-default active" href="帳號管理_教師.php">教師帳號管理</a>
             </div>
         </div>
         <div>

@@ -112,13 +112,13 @@
 		}
                 print "\n";
 			
-                if(@$name)
-                {
-                  $link = mysql_connect("localhost", "root", "12345678");
-                  mysql_select_db("mydb", $link);
-                  mysql_query("SET NAMES 'utf8'", $link);
-                  $sql = "insert into comm()"
-                }
+                //if(@$name)
+                //{
+                //  $link = mysql_connect("localhost", "root", "12345678");
+                //  mysql_select_db("mydb", $link);
+                //  mysql_query("SET NAMES 'utf8'", $link);
+                //  $sql = "insert into comm()"
+                //}
               ?>
 
               <div class="container">

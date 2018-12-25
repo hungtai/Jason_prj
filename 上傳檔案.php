@@ -39,8 +39,8 @@
                     <li><a href="專題規則.php">專題規則</a></li>
                     <li><a href="">產學合作列表</a></li>
                     <li><a href="">檔案下載</a></li>
-                    <li class="active"><a href="小組分配.html">小組分配</a></li>
-                    <li><a href="上傳檔案.php">上傳檔案</a></li>
+                    <li><a href="小組分配.php">小組分配</a></li>
+                    <li class="active"><a href="上傳檔案.php">上傳檔案</a></li>
 
                 <div class="collapse navbar-collapse clearfix" id="stuNavbar-collapse">
 
@@ -54,7 +54,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-fw fa-cog"></i> 功能 <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
 
-                            <li><a id="exportPDF" href="公告欄.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 公告事項 </a></li>
+                            <li><a id="exportPDF" href="公告欄.html"><i class="fa fa-fw fa-caret-right text-primary"></i> 公告事項 </a></li>
                             <li><a id="eCardLostReissue" href="小組分配.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 小組分配 </a></li>
                             <li><a id="eCardLostReissue" href="上傳檔案.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 上傳檔案 </a></li>
 
@@ -67,71 +67,41 @@
                         </ul>
                     </form>    <!-- /.navbar-top-links -->
                 </div>
+
                 <div class="col-xs-12">
                     <div class="page-header">
-                        <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">小組分配</b></h3>
+                        <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">上傳檔案</b></h3>
                     </div>
                 </div>
 
                 <div class="page-header">
-                    <div class="form-group">
-
-                    </div>
-                    <table style="width:100%" class=table frame="hsides">
-                        <thead>
-                            <tr>
-                                <th>系統名稱</th>
-                                <th>組長</th>
-                                <th>組員</th>
-                                <th>指導老師</th>
-                            </tr>
-                        </thead>
-                        <div class="form-group">
-                            <tbody>
-                            <div class="form-group">
-
-                            </div>
-                            <tr>
-                                <td><input type="text" class="form-control" name="sysname" placeholder="系統名稱"></td>
-                                <td><input type="text" class="form-control" name="leadername" placeholder="姓名"> <input type="text" class="form-control" name="leaderID" placeholder="學號"></td>
-                                <td><input type="text" class="form-control" name="crewname" placeholder="姓名"> <input type="text" class="form-control" name="crewID" placeholder="學號"></td>
-                                <td><input type="text" class="form-control" name="teacher" placeholder="指導老師"></td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td><input type="text" class="form-control" name="crewname" placeholder="姓名"> <input type="text" class="form-control" name="crewID" placeholder="學號"></td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td><input type="text" class="form-control" name="crewname" placeholder="姓名"> <input type="text" class="form-control" name="crewID" placeholder="學號"></td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td><input type="text" class="form-control" name="crewname" placeholder="姓名"> <input type="text" class="form-control" name="crewID" placeholder="學號"></td>
-                            </tr>
-                        </tbody>
-
-                        <tfoot>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td></td>
-                                <td><a class="btn btn-success">確認提交</a></td>
-                            </tr>
-                        </tfoot>
-                        </div>
-
-
+                    <table width:100% style="table-layout:fixed" class=table table-bordred table-striped>
+                        <tr>
+                            <th>研究學生</th>
+                            <th>系統名稱</th>
+                            <th>上傳檔案(限PDF檔)</th>
+                        </tr>
+                        <tr>
+                            <td>###&emsp;###&emsp;###&emsp;###&emsp;###</td>
+                            <td>###</td>
+                            <td>
+                                <form action="upload.php" method="post" enctype="multipart/form-data">
+　                                   選擇檔案:<input type="file" name="file" id="file" /><br />
+　                                   <input type="submit" name="submit" value="上傳檔案" />
+　                               </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td align="right"><input type="submit" value="確認上傳" class="btn btn-success"></td>
+                            <td>&nbsp;</td>
+                        </tr>
                     </table>
                 </div>
-
-                    </ul>
+                </ul>
                 </div>
             </div>
         </div>
-        </div>
-    </body>
+    </div>
+</body>
 </html>

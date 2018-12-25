@@ -5,14 +5,14 @@
   <head>
 	<meta charset="utf-8">
 	<title>FJUIM-資訊專題線上評分系統</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link href="http://project.im.fju.edu.tw/public/css/bootstrap.min.css" rel="stylesheet">
-	<link href="http://project.im.fju.edu.tw/public/css/style.css" rel="stylesheet">
+	<script src="\css\jquery.min.js"></script>
+	<link href="\css\bootstrap.min.css" rel="stylesheet">
+	<link href="\css\style.css" rel="stylesheet">
 
-	<script type="text/javascript" src="http://project.im.fju.edu.tw/public/js/jquery.min.js"></script>
-	<script type="text/javascript" src="http://project.im.fju.edu.tw/public/js/jquery.url.js"></script>
-	<script type="text/javascript" src="http://project.im.fju.edu.tw/public/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="http://project.im.fju.edu.tw/public/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="\js\jquery.min.js"></script>
+	<script type="text/javascript" src="\js\jquery.url.js"></script>
+	<script type="text/javascript" src="\js\bootstrap.min.js"></script>
+	<script type="text/javascript" src="\js\jquery.validate.min.js"></script>
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>

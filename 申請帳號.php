@@ -17,7 +17,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,">
 	</head>
 
     <body id="page-top">
@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse clearfix" id="stuNavbar-collapse">
                     <ul class="nav nav-pills">
 					<!--預留給menu class產生-->
-					<li><a href="main_index_login.html">首頁</a></li>
+					<li><a href="main_index_login.php">首頁</a></li>
                     <li><a href="申請帳號.php">申請帳號</a></li>
                     <li><a href="">公告欄</a></li>
                     <li><a href="">專題規則</a></li>
@@ -106,7 +106,7 @@
 		</div>
 
 		<div style="padding-top:50px;padding-bottom:50px" class="panel-body" align="center">
-			<a id="btn-contract" class="btn btn-primary" role="button" data-toggle="modal" data-target="#contractModal">請點我閱讀註冊條款</a>
+			<a id="btn-contract" class="btn btn-primary" role="button" data-toggle="modal">請點我閱讀註冊條款</a>
 
 			<div style="border-top: 0px solid #999; padding-top:20px">
 			</div>

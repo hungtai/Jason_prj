@@ -5,7 +5,7 @@
   <head>
 	<meta charset="utf-8">
 	<title>FJUIM-資訊專題線上評分系統</title>
-	<script src="\css\jquery.min.js"></script>
+	
 	<link href="\css\bootstrap.min.css" rel="stylesheet">
 	<link href="\css\style.css" rel="stylesheet">
 	
@@ -20,7 +20,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	</head>
 
     <body id="page-top">

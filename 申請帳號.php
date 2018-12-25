@@ -106,7 +106,7 @@
 		</div>
 
 		<div style="padding-top:50px;padding-bottom:50px" class="panel-body" align="center">
-			<a id="btn-contract" class="btn btn-primary" data-toggle="modal" data-target="#contractModal">請點我閱讀註冊條款</a>
+			<a id="btn-contract" class="btn btn-primary" role="button" data-toggle="modal" data-target="#contractModal">請點我閱讀註冊條款</a>
 
 			<div style="border-top: 0px solid #999; padding-top:20px">
 			</div>

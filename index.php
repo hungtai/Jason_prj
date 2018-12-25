@@ -57,7 +57,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a class="navbar-brand"><img src="http://140.136.251.210/student/Image/fju-lg.png" alt=""></a>
+                        <a class="navbar-brand"><img src="https://140.136.251.210/student/Image/fju-lg.png" alt=""></a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
@@ -291,7 +291,7 @@
     <script src="\js\form-validator.min.js"></script>
     <script src="\js\contact-form-script.min.js"></script>
     <script src="\js\map.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"> </script>
 
 </body>
 </html>

@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
 
-                    <a href="學生登入.html" class="btn btn-common btn-lg">登入</a><br>
+                    <a href="學生登入.php" class="btn btn-common btn-lg">登入</a><br>
                     <a href="#news" class="target-scroll page-scroll"><i class="lni-chevron-down"></i></a>
                 </div>
             </div>

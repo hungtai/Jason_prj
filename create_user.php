@@ -13,8 +13,8 @@ $pg_conn = pg_connect(pg_connection_string_from_database_url());
 if ($_POST['roleSelect'] == "學生") {
 	$id =(string)$_POST['UserID'];
 	$name = (string)$_POST['name'];
-	$password = (string)$_POST['Password'];
-	print_r($_POST);
+	$password = (string)$_POST['Password']; 
+	//print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
 	$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ('$id','$name','$password')");
@@ -30,7 +30,7 @@ if ($_POST['roleSelect'] == "教師") {
 	$id =(string)$_POST['UserID'];
 	$name = (string)$_POST['name'];
 	$password = (string)$_POST['Password'];
-	print_r($_POST);
+	//print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
 	$result = pg_query($pg_conn, "INSERT INTO teacher (id,name,password) VALUES ('$id','$name','$password')");
@@ -46,7 +46,7 @@ if ($_POST['roleSelect'] == "管理者") {
 	$id =(string)$_POST['UserID'];
 	$name = (string)$_POST['name'];
 	$password = (string)$_POST['Password'];
-	print_r($_POST);
+	//print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
 	$result = pg_query($pg_conn, "INSERT INTO webmaster (id,name,password) VALUES ('$id','$name','$password')");

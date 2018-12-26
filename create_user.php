@@ -17,7 +17,7 @@ if ($_POST['roleSelect'] == "學生") {
 	print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-	$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ((string)$id,(string)$name,(string)$password)");
+	$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($_POST['UserID'],$_POST['name'],$_POST['Password']");
 			
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);

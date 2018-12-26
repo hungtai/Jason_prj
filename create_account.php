@@ -36,9 +36,6 @@
 		
 		$result = pg_query($pg_conn, "SELECT relname FROM pg_stat_user_tables WHERE schemaname='public'");
 		
-		print "<pre>\n";
-		
-		
 		if ($_POST['roleSelect'] == "學生") {
 			$id = $_POST['UserID'];
 			$name = $_POST['name'];
@@ -56,7 +53,7 @@
 			echo '<div class="alert alert-success">'.addslashes("建立帳號成功!").'</div>';
 			
 		}else{
-			echo "role: ".$_POST['roleSelect'];
+			echo '<div class="alert alert-danger">'.addslashes("建立帳號失敗!").'</div>';
 		}
 		
 	    	if (!pg_num_rows($result)) {

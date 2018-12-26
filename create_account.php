@@ -53,6 +53,7 @@
 				echo pg_result_error($res1);
 				exit;
 			}
+			echo '<div class="alert alert-success">'.addslashes("建立帳號成功!").'</div>';
 			
 		}else{
 			echo "role: ".$_POST['roleSelect'];

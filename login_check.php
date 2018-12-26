@@ -25,7 +25,7 @@ if ($_POST['roleSelect'] == "學生") {
 		exit();
 	}
 	if (pg_num_rows($result) == 0) {
-   		echo "<script>alert('學生帳號登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+   		echo "<script>alert('學生帳號登入失敗!請確認ID, 密碼!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit();
   	}
 	echo "<script>alert('學生帳號存在, 導向至檔案上傳頁面!');location.href='upload.php';</script>";
@@ -41,9 +41,13 @@ if ($_POST['roleSelect'] == "教師") {
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);
 		echo pg_result_error($res1);
-		echo "<script>alert('管理者登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+		echo "<script>alert('DB連接失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit;
 	}
+	if (pg_num_rows($result) == 0) {
+   		echo "<script>alert('教師帳號登入失敗!請確認ID, 密碼!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+		exit();
+  	}
 	echo "<script>alert('教師帳號存在, 導向至評分功能頁面!');location.href='score.php';</script>";
 }
 if ($_POST['roleSelect'] == "管理者") {
@@ -60,6 +64,10 @@ if ($_POST['roleSelect'] == "管理者") {
 		echo "<script>alert('管理者登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit;
 	}
+	if (pg_num_rows($result) == 0) {
+   		echo "<script>alert('管理者帳號登入失敗,請確認ID, 密碼!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+		exit();
+  	}
 	echo "<script>alert('管理者登入成功, 導向至維護頁面!');location.href='maintain.php';</script>";
 }
 ?>

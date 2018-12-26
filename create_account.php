@@ -58,12 +58,12 @@
 
 
                 <section id="loginForm">
-                    <form action="#" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="lvn8ULTR99Mm4fCEKfWSrntYl8E4x-hHDm8e9Qce0BVOP0Pgg8ttuNcMGJcoLZfBcJPW7gJjqv2d1Edd80CJIoQL2JK0uXoGjYLGx4vd6fQ1" />                        <div class="form-group">
+                    <form action="create_user.php" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="lvn8ULTR99Mm4fCEKfWSrntYl8E4x-hHDm8e9Qce0BVOP0Pgg8ttuNcMGJcoLZfBcJPW7gJjqv2d1Edd80CJIoQL2JK0uXoGjYLGx4vd6fQ1" />                        <div class="form-group">
                             <div class="col-md-offset-1 col-md-9 col-lg-offset-1 col-lg-9">
 
                                 <div class="col-xs-12">
                                 <div class="page-header">
-                                    <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">登入系統</b></h3>
+                                    <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">建立帳號</b></h3>
                                 </div>
                                 </div>
                             </div>

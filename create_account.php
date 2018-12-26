@@ -40,13 +40,13 @@
 		
 		
 		if ($_POST['roleSelect'] == "學生") {
-			$id = _POST['UserID'];
-			$name = _POST['name'];
-			$password = _POST['Password'];
+			$id = $_POST['UserID'];
+			$name = $_POST['name'];
+			$password = $_POST['Password'];
 			//print_r($_POST);
 			
-			//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-			$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)");
+			$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
+			$result = pg_query($pg_conn, $sql);
 			
 			if (!$result){
 				$res1 = pg_get_result($pg_conn);

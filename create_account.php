@@ -26,6 +26,7 @@
 
     <body id="page-top">
 	<?php
+	    session_start();
 	    function pg_connection_string_from_database_url() {
 			extract(parse_url($_ENV["DATABASE_URL"]));
 			return "user=$user password=$pass host=$host dbname=" . substr($path, 1); # <- you may want to add sslmode=require there too
@@ -59,8 +60,7 @@
 			while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
 		}
 		//$sql = "INSERT INTO users (username, password, email) VALUES ('".$_POST["username"]."','".$_POST["password"]."','".$_POST["email"]."')";
-	}
-	    
+	    }
 	?>
 
     <div class="container">

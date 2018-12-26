@@ -11,13 +11,13 @@ $pg_conn = pg_connect(pg_connection_string_from_database_url());
 //$result = pg_query($pg_conn, "SELECT relname FROM pg_stat_user_tables WHERE schemaname='public'")
 				
 if ($_POST['roleSelect'] == "學生") {
-	$id = $_POST['UserID'];
-	$name = $_POST['name'];
-	$password = $_POST['Password'];
+	$id =(string)$_POST['UserID'];
+	$name = (string)$_POST['name'];
+	$password = (string)$_POST['Password'];
 	print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-	$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($_POST['UserID'],$_POST['name'],$_POST['Password']");
+	$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)");
 			
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);

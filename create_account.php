@@ -39,7 +39,7 @@
 		print "<pre>\n";
 		
 		
-		if ($_POST['roleSelect'] == ' 學生') {
+		if ($_POST['roleSelect'] == "學生") {
 			$id = _POST['UserID'];
 			$name = _POST['name'];
 			$password = _POST['Password'];
@@ -53,7 +53,10 @@
 				exit;
 			}
 			
+		}else{
+			echo "role: ".$_POST['roleSelect'];
 		}
+		
 	    	if (!pg_num_rows($result)) {
 			print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 		} 

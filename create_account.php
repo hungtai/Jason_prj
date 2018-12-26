@@ -21,7 +21,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,; user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	</head>
 
     <body id="page-top">
@@ -63,7 +63,7 @@
 
                                 <div class="col-xs-12">
                                 <div class="page-header">
-                                    <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">登入系統</b></h3>
+                                    <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">帳號建立</b></h3>
                                 </div>
                                 </div>
                             </div>

@@ -38,6 +38,7 @@
 		
 		print "<pre>\n";
 		
+		print ($_POST['id'].$_POST['name'].$_POST['password'].$_POST['roleSelect']
 	    	if (!pg_num_rows($result)) {
 			print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 		} 
@@ -126,7 +127,7 @@
 				<div class="form-group">
 				<label class="col-md-2 col-lg-2 control-label" for="roleSelect">類型</label>
 				<div class="col-md-8 col-lg-8">
-					<select class="form-control" id="roleSelect">
+					<select class="form-control" id="roleSelect" name="roleSelect">
 						<option>學生</option>
 						<option>教師</option>
 						<option>管理者</option>

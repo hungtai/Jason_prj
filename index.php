@@ -26,7 +26,7 @@
                             <a class="nav-link" href="#header-wrap">首頁</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="create_account.html">申請帳號</a>
+                            <a class="nav-link" href="create_account.php">申請帳號</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">公告欄</a>

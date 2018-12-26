@@ -40,7 +40,7 @@
 			$id = $_POST['UserID'];
 			$name = $_POST['name'];
 			$password = $_POST['Password'];
-			//print_r($_POST);
+			print_r($_POST);
 			
 			//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
 			$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)");

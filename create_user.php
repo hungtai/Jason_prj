@@ -24,6 +24,29 @@ if ($_POST['roleSelect'] == "學生") {
 		echo pg_result_error($res1);
 		exit;
 	}
+	echo "<script>alert('帳號建立成功!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+	if (!pg_num_rows($result)) {
+		print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
+	} else {
+		print "Tables in your database:\n";
+		while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
+	}
+		//$sql = "INSERT INTO users (username, password, email) VALUES ('".$_POST["username"]."','".$_POST["password"]."','".$_POST["email"]."')";
+}
+if ($_POST['roleSelect'] == "教師") {
+	$id =(string)$_POST['UserID'];
+	$name = (string)$_POST['name'];
+	$password = (string)$_POST['Password'];
+	print_r($_POST);
+			
+	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
+	$result = pg_query($pg_conn, "INSERT INTO teacher (id,name,password) VALUES ('$id','$name','$password')");
+			
+	if (!$result){
+		$res1 = pg_get_result($pg_conn);
+		echo pg_result_error($res1);
+		exit;
+	}
 	if (!pg_num_rows($result)) {
 		print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 	} else {

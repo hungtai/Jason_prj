@@ -38,7 +38,7 @@
 		
 		print "<pre>\n";
 		
-		//print_r($_POST);
+		print_r($_POST);
 		if ($_POST['roleSelect'] == '學生') {
 			$id = _POST['UserID'];
 			$name = _POST['name'];
@@ -47,8 +47,6 @@
 			$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
 			$result = pg_query($pg_conn, $sql);
 			print($result);
-		}else{
-			print_r($_POST['roleSelect']);
 		}
 	    	if (!pg_num_rows($result)) {
 			print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
@@ -147,7 +145,7 @@
 			</div>	
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-                                <input type="submit" value="登入" name ="create" id = "create" class="btn btn-success" />
+                                <input type="submit" value="建立" name ="create" id = "create" class="btn btn-success" />
                             </div>
                         </div>
                     </form>

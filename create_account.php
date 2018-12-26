@@ -30,10 +30,9 @@
 			extract(parse_url($_ENV["DATABASE_URL"]));
 			return "user=$user password=$pass host=$host dbname=" . substr($path, 1); # <- you may want to add sslmode=require there too
 		}
-	    	
+	    print "<pre>\n";	
 	    if(isset($_POST['create'])){
 		$pg_conn = pg_connect(pg_connection_string_from_database_url());
-		
 		$result = pg_query($pg_conn, "SELECT relname FROM pg_stat_user_tables WHERE schemaname='public'");
 		
 		if ($_POST['roleSelect'] == "學生") {
@@ -59,9 +58,8 @@
 			print "Tables in your database:\n";
 			while ($row = pg_fetch_row($result)) { print("- $row[0]\n"); }
 		}
-        	
 		//$sql = "INSERT INTO users (username, password, email) VALUES ('".$_POST["username"]."','".$_POST["password"]."','".$_POST["email"]."')";
-    		}
+	}
 	    
 	?>
 

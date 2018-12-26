@@ -38,7 +38,7 @@
 		
 		print "<pre>\n";
 		
-		echo 'id:  \n'.$_POST['UserID'].$POST['name'];
+		print_r($_POST);
 	    	if (!pg_num_rows($result)) {
 			print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 		} 

@@ -50,10 +50,9 @@
 				echo pg_result_error($res1);
 				exit;
 			}
-			echo '<div class="alert alert-success">'.addslashes("建立帳號成功!").'</div>';
-			
+			echo 'Success';
 		}else{
-			echo '<div class="alert alert-danger">'.addslashes("建立帳號失敗!").'</div>';
+			echo 'Error';
 		}
 		
 	    	if (!pg_num_rows($result)) {

@@ -8,7 +8,11 @@
 
 	<link href="\css\bootstrap.min.css" rel="stylesheet">
 	<link href="\css\style.css" rel="stylesheet">
-
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
 	<script type="text/javascript" src="\js\jquery.min.js"></script>
 	<script type="text/javascript" src="\js\jquery.url.js"></script>
 	<script type="text/javascript" src="\js\bootstrap.min.js"></script>
@@ -17,7 +21,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,; user-scalable=0">
 	</head>
 
     <body id="page-top">
@@ -84,26 +88,26 @@
                                 <span class="field-validation-valid" data-valmsg-for="name" data-valmsg-replace="true"></span>
                             </div>
                         </div>
-						<div class="form-group">
-                            <label class="col-md-2 col-lg-2 control-label" for="Password">密碼</label>
-                            <div class="col-md-8 col-lg-8">
-                                <div class="input-group margin-bottom-sm">
-                                    <input class="form-control" data-val="true" data-val-maxlength="密碼 最多允許 30 個字元，請修正" data-val-maxlength-max="30" data-val-required="密碼 欄位是必要項。" id="Password" name="Password" type="password" />
-                                    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-                                </div>
-                                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
-                            </div>
+			<div class="form-group">
+                        	<label class="col-md-2 col-lg-2 control-label" for="Password">密碼</label>
+                            	<div class="col-md-8 col-lg-8">
+                                	<div class="input-group margin-bottom-sm">
+                                    		<input class="form-control" data-val="true" data-val-maxlength="密碼 最多允許 30 個字元，請修正" data-val-maxlength-max="30" data-val-required="密碼 欄位是必要項。" id="Password" name="Password" type="password" />
+                                    		<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                                	</div>
+                                	<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                            	</div>
                         </div>
-						<div class="form-group">
-							<label for="roleSelect">類型</label>
-							<div class="col-md-8 col-lg-8">
-								<select class="form-control" id="roleSelect">
-									<option>學生</option>
-									<option>教師</option>
-									<option>管理者</option>
-								</select>
-							</div>
-						</div>	
+				<div class="form-group">
+				<label class="col-md-2 col-lg-2 control-label" for="roleSelect">類型</label>
+				<div class="col-md-8 col-lg-8">
+					<select class="form-control" id="roleSelect">
+						<option>學生</option>
+						<option>教師</option>
+						<option>管理者</option>
+					</select>
+				</div>
+			</div>	
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
                                 <input type="submit" value="登入" class="btn btn-success" />

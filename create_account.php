@@ -43,11 +43,11 @@
 			$id = _POST['UserID'];
 			$name = _POST['name'];
 			$password = _POST['Password'];
-			print_r($_POST);
+			//print_r($_POST);
 			
-			$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-			$result = pg_query($pg_conn, $sql);
-			echo "result: $result";
+			//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
+			$result = pg_query($pg_conn, "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)");
+			
 			if (!$result){
 				$res1 = pg_get_result($pg_conn);
 				echo pg_result_error($res1);

@@ -21,40 +21,41 @@ if ($_POST['roleSelect'] == "學生") {
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);
 		echo pg_result_error($res1);
+		echo "<script>alert('管理者登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit;
 	}
-	echo "<script>alert('學生帳號存在, 導向至學生功能頁面!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+	echo "<script>alert('學生帳號存在, 導向至檔案上傳頁面!');location.href='upload.php';</script>";
 }
 if ($_POST['roleSelect'] == "教師") {
 	$id =(string)$_POST['UserID'];
-	$name = (string)$_POST['name'];
-	$password = (string)$_POST['Password'];
+	$password = (string)$_POST['Password']; 
 	//print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-	$result = pg_query($pg_conn, "INSERT INTO teacher (id,name,password) VALUES ('$id','$name','$password')");
+	$result = pg_query($pg_conn, "SELECT * FROM teacher WHERE id ='$id' AND password = '$password'");
 			
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);
 		echo pg_result_error($res1);
+		echo "<script>alert('管理者登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit;
 	}
-	echo "<script>alert('教師帳號建立成功!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+	echo "<script>alert('教師帳號存在, 導向至評分功能頁面!');location.href='score.php';</script>";
 }
 if ($_POST['roleSelect'] == "管理者") {
 	$id =(string)$_POST['UserID'];
-	$name = (string)$_POST['name'];
-	$password = (string)$_POST['Password'];
+	$password = (string)$_POST['Password']; 
 	//print_r($_POST);
 			
 	//$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
-	$result = pg_query($pg_conn, "INSERT INTO webmaster (id,name,password) VALUES ('$id','$name','$password')");
+	$result = pg_query($pg_conn, "SELECT * FROM webmaster WHERE id ='$id' AND password = '$password'");
 			
 	if (!$result){
 		$res1 = pg_get_result($pg_conn);
 		echo pg_result_error($res1);
+		echo "<script>alert('管理者登入失敗!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
 		exit;
 	}
-	echo "<script>alert('管理者帳號建立成功!');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+	echo "<script>alert('管理者登入成功, 導向至維護頁面!');location.href='maintain.php';</script>";
 }
 ?>

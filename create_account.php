@@ -38,7 +38,16 @@
 		
 		print "<pre>\n";
 		
-		print_r($_POST);
+		//print_r($_POST);
+		if ($_POST[roleSelect] == '學生') {
+			$id = _POST['UserID'];
+			$name = _POST['name'];
+			$password = _POST['password'];
+			
+			$sql = "INSERT INTO student (id,name,password) VALUES ($id,$name,$password)";
+			$result = pg_query($pg_conn, $sql);
+			print($result);
+		}
 	    	if (!pg_num_rows($result)) {
 			print("Your connection is working, but your database is empty.\nFret not. This is expected for new apps.\n");
 		} 

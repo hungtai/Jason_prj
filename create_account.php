@@ -49,7 +49,8 @@
 			$result = pg_query($pg_conn, $sql);
 			echo "result: $result";
 			if (!$result){
-				echo "An error occurred.\n";
+				$res1 = pg_get_result($pg_conn);
+				echo pg_result_error($res1);
 				exit;
 			}
 			

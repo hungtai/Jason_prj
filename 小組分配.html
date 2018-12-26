@@ -25,10 +25,10 @@
                     dataType: "json", //資料格式
                     data: { //傳送資料
                         leader_id: $("#leader_id").val(), //表單欄位 ID nickname
-                        member1_id: $("#member1_id").val() //表單欄位 ID gender
-						member2_id: $("#member2_id").val()
-						member3_id: $("#member3_id").val()
-						member4_id: $("#member4_id").val()
+                        member1_id: $("#member1_id").val(), //表單欄位 ID gender
+			member2_id: $("#member2_id").val(),
+			member3_id: $("#member3_id").val(),
+			member4_id: $("#member4_id").val()
                     },
                     success: function(data) {
                         if (data.leader_name) { //如果後端回傳 json 資料有 nickname
@@ -51,7 +51,7 @@
         <!--[if lt IE 9]>
           <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	</head>
 
     <body id="page-top">

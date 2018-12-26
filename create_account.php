@@ -50,9 +50,6 @@
 				echo pg_result_error($res1);
 				exit;
 			}
-			echo 'Success';
-		}else{
-			echo 'Error';
 		}
 		
 	    	if (!pg_num_rows($result)) {

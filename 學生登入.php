@@ -56,7 +56,7 @@
 
 
                 <section id="loginForm">
-                    <form action="/student/Account/Login" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="lvn8ULTR99Mm4fCEKfWSrntYl8E4x-hHDm8e9Qce0BVOP0Pgg8ttuNcMGJcoLZfBcJPW7gJjqv2d1Edd80CJIoQL2JK0uXoGjYLGx4vd6fQ1" />                        <div class="form-group">
+                    <form action="login_check.php" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="lvn8ULTR99Mm4fCEKfWSrntYl8E4x-hHDm8e9Qce0BVOP0Pgg8ttuNcMGJcoLZfBcJPW7gJjqv2d1Edd80CJIoQL2JK0uXoGjYLGx4vd6fQ1" />                        <div class="form-group">
                             <div class="col-md-offset-1 col-md-9 col-lg-offset-1 col-lg-9">
 
                                 <div class="col-xs-12">

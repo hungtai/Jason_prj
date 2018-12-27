@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<title>Learning JS</title>
+	
+	<meta charset="utf-8" />
+	<meta name = "viewport" content="width=device-width, initial-scale=1" />
+	
+	
+	
+</head>
+<body>
+	
+	
+	<button id="myButton1">Button 1</button>
+	<button id="myButton2">Button 2</button>
+	<p id="text">myTEXT Here</p>
+	
+	<script type="text/javascript">
+		//document.getElementById("text").innerHTML = "new TEXT here";
+		document.getElementById("myButton1").onclick = function(){
+			document.getElementById("text").innerHTML = "NEW TEXT";
+		}
+		
+		document.getElementById("myButton2").onclick = function(){
+			document.getElementById("text").innerHTML = "OLD TEXT";
+		}
+	</script>
+	
+</body>

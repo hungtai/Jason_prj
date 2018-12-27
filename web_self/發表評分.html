@@ -53,9 +53,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-fw fa-cog"></i> 功能 <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a id="exportPDF" href="公告欄.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 公告事項 </a></li>
-                            <li><a id="eCardLostReissue" href="文件評分.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 文件評分 </a></li>
-                            <li><a id="eCardLostReissue" href="發表評分.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 發表評分 </a></li>
-                            <li><a id="eCardLostReissue" href="評分標準.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 評分標準 </a></li>
+                            <li><a id="eCardLostReissue" href="小組分配.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 小組分配 </a></li>
+                            <li><a id="eCardLostReissue" href="文件評分.php"><i class="fa fa-fw fa-caret-right text-primary"></i> 線上評分 </a></li>
 
                         </ul>
                     </li>
@@ -73,10 +72,17 @@
 
         <div class="col-xs-12">
             <div class="page-header">
-                <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">文件評分</b></h3>
+                <h3><i class="fa fa-fw fa-sign-in"></i> <b class="text-muted">發表評分</b></h3>
             </div>
         </div>
-		<label for="team_select">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;組別</label>
+
+        <div class="container">
+            <div class="btn-group btn-group-vertical" style="position:fixed; top:300px; left:250px;">
+                <a type="button" class="btn btn-default" href="文件評分.php">文件評分</a>
+                <a type="button" class="btn btn-default active" href="發表評分.php">發表評分</a>
+                <a type="button" class="btn btn-default" href="評分標準.php">評分標準</a>
+            </div>
+			<label for="team_select">&nbsp;組別</label>
 		<select id="team_select" name="team_select">
 			<option>第一組</option>
 			<option>第二組</option>
@@ -90,62 +96,44 @@
 			<option>第十組</option>
 		</select>
 		<button type="button">取得小組資訊</button>
-		
-        <div class="container">
-            <div class="btn-group btn-group-vertical" style="position:fixed; top:300px; left:250px;">
-                <a type="button" class="btn btn-default active" href="文件評分.php">文件評分</a>
-                <a type="button" class="btn btn-default" href="發表評分.php">發表評分</a>
-                <a type="button" class="btn btn-default" href="評分標準.php">評分標準</a>
-            </div>
             <div>
-                <table width=100% class=table align="center"><!--width=100% class=table align="center"-->
+                <table width=100% class=table frame="hsides">
+                    <colgroup>
+                        <col style="width:100px">
+                        <col style="width:250px">
+                        <col style="width:px">
+                        <col style="width:px">
+                        <col style="width:px">
+                        <col style="width:px">
+                        <col style="width:px">
+                    </colgroup>
                     <tr>
-                        <td>系統名稱</td>
-                        <td colspan="5">###</td>
+                        <th>系統名稱</th>
+                        <th>專題組員</th>
+                        <th colspan="4">專題發表臨場表現</th>
                     </tr>
                     <tr>
-                        <td>研究學生</td>
-                        <td colspan="5">###&emsp;###&emsp;###&emsp;###&emsp;###</td>
+                        <td>###</td>
+                        <td>###&emsp;###&emsp;###&emsp;###&emsp;###</td>
+                        <td>展示(15%)</td>
+                        <td>應對(10%)</td>
+                        <td>時間控制(5%)</td>
+                        <td>系統功能(10%)</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">文件初稿(30%)</td>
-                        <td>系統描述</td>
-                        <td></td>
-                        <td>需求規格</td>
-                        <td></td>
-                        <td>設計規格</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><input type="text" class="form-control" name="present"></td>
+                        <td><input type="text" class="form-control" name="talk"></td>
+                        <td><input type="text" class="form-control" name="time"></td>
+                        <td><input type="text" class="form-control" name="function"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" class="form-control"></td>
-                        <td></td>
-                        <td><input type="text" class="form-control"></td>
-                        <td></td>
-                        <td><input type="text" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">系統功能(30%)</td>
-                        <td>功能創新性</td>
-                        <td>功能實用性</td>
-                        <td>系統技術性</td>
-                        <td>介面親和性</td>
-                        <td>內容豐富性</td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" class="form-control"></td>
-                        <td><input type="text" class="form-control"></td>
-                        <td><input type="text" class="form-control"></td>
-                        <td><input type="text" class="form-control"></td>
-                        <td><input type="text" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td>是否需要補驗收</td>
-                        <td colspan="5"><input type="checkbox" name="yes">(補驗收日期訂於11/19~11/30)</td>
-                    </tr>
-                    <tr>
-                        <td>評語</td>
-                        <td colspan="5">
-                            <textarea id="comment" class="form-control" name="post-text" cols="100" rows="15" tabindex="101" data-wz-state="8" data-min-length="" placeholder="1、本專題組的強項(優點)：
-2、待改善項目："></textarea></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td colspan="4">
+                            <textarea id="comment" class="form-control" name="post-text" cols="100" rows="15" tabindex="101" data-wz-state="8" data-min-length="" placeholder="請評審給予整組綜合性評語"></textarea>
+                        </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -156,7 +144,19 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
+                <p>
+                    (1)展示中包含English Presentation 5分鐘，請評審斟酌給分。<br>
+                    (2)分數請用ABCDF等級表示：A為優異、B為佳、C為普通、D為有待改進、F為不合格。(建議只選一組評為優異)<br>
+                    (3)時間配分標準:<br>
+                    &emsp; 15分鐘以下: F &emsp; 15~18分鐘 : C &emsp; 18~20分鐘 : A <br>
+                    &emsp; 20~23分鐘 : C &emsp; 23分鐘以上: F <br>
+                    (4)安裝耽誤發表時間的扣分標準：<br>
+                    &emsp; 開始發表時間延遲2分鐘以上，以F計之<br>
+                    &emsp; 延遲超過10分鐘以上由評審老師決定是否發表<br>
+                    (5)評審表請各位老師於該評審場次結束後立即交給工讀生或助教
+                </p>
             </div>
+
         </div>
 
         </div>
